@@ -1,0 +1,10 @@
+/data_b/mount/bb4/benchmark/detection/real_data/idcardfront_2000/106042idCardFront.jpg
+/data_b/mount/bb4/benchmark/detection/real_data/idcardfront_2000/109901idCardFront.jpg
+/data_b/mount/bb4/benchmark/detection/real_data/idcardfront_2000/115904idCardFront.jpg
+/data_b/mount/bb4/benchmark/detection/real_data/idcardfront_2000/120441idCardFront.jpg
+/data_b/mount/bb4/benchmark/detection/real_data/idcardfront_2000/15372idCardFront.jpg
+/data_b/mount/bb4/benchmark/detection/real_data/idcardfront_2000/1808687790948700idCardFront.jpg
+/data_b/mount/bb4/benchmark/detection/real_data/idcardfront_2000/64497idCardFront.jpg
+/data_b/mount/bb4/benchmark/detection/real_data/idcardfront_2000/66339idCardFront.jpg
+/data_b/mount/bb4/benchmark/detection/real_data/idcardfront_2000/86795idCardFront.jpg
+/data_b/mount/bb4/benchmark/detection/real_data/idcardfront_2000/87022idCardFront.jpg
