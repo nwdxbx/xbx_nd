@@ -3,6 +3,8 @@ processon
 #文档撰写
 office online
 
+curl https://wttr.in    #获取天气命令
+
 #ubuntu环境变量
 vim ~/.bashrc   #source .bashrc
 vim /etc/profile    #sudo ldconfig
@@ -17,11 +19,13 @@ tail -f filename #实时显示文件最新内容
 : s/vivian/sky/g #替换当前行所有
 : n,$s/vivian/sky/ #替换第n行到最后一行第一个
 : n,$s/vivian/sky/g #替换第n行到最后一行所有
+sed -i '/100_fake/d' train.txt  #删除含有指定字符串的行
 
 script filename #终端信息保存到文件中
 env | grep -i proxy #查看代理
 %!python -m json.tool #终端格式化json文件
 paste -d ' ' 1.txt 2.txt >>merge.txt #以空格按顺序合并两个文件
+sudo awk 'BEGIN{ 100000*srand();}{ printf "%s %s\n", rand(), $0}'   train.txt |sort -k1n | awk '{gsub($1FS,""); print $0}' > tmp.txt #按行打乱文件顺序
 
 sed -i "15i contents" Lab.txt #选中第几行插入内容
 sed -n "1,21p" Lab.txt >>test.txt #从文件中选中的行写入到另一个文件中
