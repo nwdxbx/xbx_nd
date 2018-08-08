@@ -12,6 +12,7 @@ vim /etc/ld.so.conf.d/xxx.conf  #sudo ldconfig
 vim /etc/bash.bashrc
 
 echo "password" | sshfs username@192.168.101.204:/home/user/abc /media/d/test -o allow_other -o password_stdin  #本地挂载到远程
+alias go-bb0='sshpass -psuanfazu00 ssh bb0@10.15.81.186'    #远程快速链接
 
 tail -f filename #实时显示文件最新内容
 :%s/^/... #文件头添加

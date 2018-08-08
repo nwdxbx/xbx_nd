@@ -1,0 +1,29 @@
+{
+    "service_name":"mask_iden",
+    "server_id":"001",
+    "service_proj_loc":"net_check",
+    "test_folder":"test",
+    "test_file":"test.py",
+    "services":{
+        "8084":{
+            "gpu":"0",
+            "monitor":true
+        },
+        "8085":{
+            "gpu":"1",
+            "monitor":true
+        },
+        "8086":{
+            "gpu":"2",
+            "monitor":true
+        },
+        "8087":{
+            "gpu":"3",
+            "monitor":true
+        }
+    },
+    "monitor":{
+        "users":["053832"]
+
+    }
+}
