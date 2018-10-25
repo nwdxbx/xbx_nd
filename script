@@ -44,7 +44,7 @@ ls -lR /imagedata/data/20161108|grep txt|wc -l #统计/imagedata/data/20161108�
 :set nobomb  #去掉utf-8 BOM
 :set bomb   #保留utf-8 BOM
 
-
+###
 #python的pdb调试
 n 下一步
 s 内部
