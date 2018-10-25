@@ -51,3 +51,7 @@ s 内部
 c 继续
 b line #添加断点
 cl n   #删除断点
+
+#Linux下解压zip分卷文件
+cat FaceScrub.z* > unsplitFaceScrub.zip
+unzip unsplitFaceScrub.zip
