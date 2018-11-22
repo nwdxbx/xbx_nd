@@ -1,0 +1,86 @@
+cd build
+rm -rf *
+cmake -DCMAKE_TOOLCHAIN_FILE=../platforms/android/android.toolchain.cmake \
+-DANDROID_NDK=/home/xubx/Android/Sdk/android-ndk-r14b \
+-DANDROID_TOOLCHAIN_NAME=aarch64-linux-android-4.9 \
+-DCMAKE_BUILD_TYPE=Release -DANDROID_ABI="arm64-v8a" \
+-DANDROID_NATIVE_API_LEVEL=21 \
+-DANDROID_FORCE_ARM_BUILD=ON \
+-DWITH_CAROTENE=OFF \
+-DWITH_CLP=OFF \
+-DWITH_CUBLAS=OFF \
+-DWITH_CUDA=OFF \
+-DWITH_CUFFT=OFF \
+-DWITH_EIGEN=OFF \
+-DWITH_GDCM=OFF \
+-DWITH_GSTREAMER_0_10=OFF \
+-DWITH_JASPER=OFF \
+-DWITH_JPEG=OFF \
+-DWITH_NVCUVID=OFF \
+-DWITH_OPENCL=OFF \
+-DWITH_OPENCL_SVM=OFF \
+-DWITH_OPENEXR=OFF \
+-DWITH_OPENMP=OFF \
+-DWITH_OPENVX=OFF \
+-DWITH_PNG=ON \
+-DWITH_PTHREADS_PF=OFF \
+-DWITH_TBB=OFF \
+-DWITH_TIFF=OFF \
+-DWITH_WEBP=OFF \
+-DBUILD_ANDROID_EXAMPLES=OFF \
+-DBUILD_ANDROID_SERVICE=OFF \
+-DBUILD_CUDA_STUBS=OFF \
+-DBUILD_DOCS=OFF \
+-DBUILD_EXAMPLES=OFF \
+-DBUILD_FAT_JAVA_LIB=OFF \
+-DBUILD_JASPER=OFF \
+-DBUILD_JPEG=OFF \
+-DBUILD_OPENEXR=OFF \
+-DBUILD_PACKAGE=OFF \
+-DBUILD_PERF_TESTS=OFF \
+-DBUILD_PNG=ON \
+-DBUILD_SHARED_LIBS=OFF \
+-DBUILD_TBB=OFF \
+-DBUILD_TESTS=OFF \
+-DBUILD_TIFF=OFF \
+-DBUILD_WITH_DEBUG_INFO=OFF \
+-DBUILD_WITH_DYNAMIC_IPP=OFF \
+-DBUILD_opencv_apps=OFF \
+-DBUILD_opencv_calib3d=ON \
+-DBUILD_ZLIB=ON \
+-DBUILD_opencv_core=ON \
+-DBUILD_opencv_features2d=ON \
+-DBUILD_opencv_flann=ON \
+-DBUILD_opencv_highgui=ON \
+-DBUILD_opencv_imgcodecs=ON \
+-DBUILD_opencv_imgproc=ON \
+-DBUILD_opencv_java=OFF \
+-DBUILD_opencv_ml=ON \
+-DBUILD_opencv_objdetect=OFF \
+-DBUILD_opencv_photo=OFF \
+-DBUILD_opencv_shape=OFF \
+-DBUILD_opencv_stitching=OFF \
+-DBUILD_opencv_stereo=OFF \
+-DBUILD_opencv_superres=OFF \
+-DBUILD_opencv_ts=OFF \
+-DBUILD_opencv_video=OFF \
+-DBUILD_opencv_videoio=OFF \
+-DBUILD_opencv_line_descriptor=OFF \
+-DBUILD_opencv_reg=OFF \
+-DBUILD_opencv_saliency=OFF \
+-DBUILD_opencv_videostab=OFF \
+-DBUILD_opencv_world=OFF \
+-DBUILD_opencv_xfeatures2d=OFF \
+-DBUILD_opencv_face=OFF \
+-DBUILD_opencv_bgsegm=OFF \
+-DBUILD_opencv_datasets=OFF \
+-DBUILD_opencv_dpm=OFF \
+-DBUILD_opencv_tracking=OFF \
+-DBUILD_opencv_xobjdetect=OFF \
+-DBUILD_opencv_optflow=OFF \
+-DBUILD_opencv_tracking=OFF \
+-DENABLE_NEON=ON ..
+
+
+
+#python ./build_sdk.py --ndk_path /home/xubx/Android/Sdk/android-ndk-r14b --sdk_path /home/xubx/Android/Sdk . ../..

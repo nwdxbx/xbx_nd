@@ -44,6 +44,11 @@ ls -lR /imagedata/data/20161108|grep txt|wc -l #统计/imagedata/data/20161108�
 :set nobomb  #去掉utf-8 BOM
 :set bomb   #保留utf-8 BOM
 
+ulimit -d unlimited #数据段长度无限制
+ulimit -m unlimited #最大内存大小无限制
+ulimit -s unlimited #堆栈大小无限制
+ulimit -c unlimited #core文件大小无限制
+
 ###
 #python的pdb调试
 n 下一步
