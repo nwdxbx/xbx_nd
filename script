@@ -49,6 +49,8 @@ ulimit -m unlimited #最大内存大小无限制
 ulimit -s unlimited #堆栈大小无限制
 ulimit -c unlimited #core文件大小无限制
 
+find . |xargs grep -ri "x86,x86_64,arm64-v8a,armeabi-v7a" #查找
+
 ###
 #python的pdb调试
 n 下一步
