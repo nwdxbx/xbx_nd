@@ -1,0 +1,12 @@
+bazel-bin/tensorflow/contrib/lite/toco/toco --input_file=freeze_model.pb --input_format=TENSORFLOW_GRAPHDEF --output_format=TFLITE --output_file=model.lite --inference_type=FLOAT --input_type=FLOAT --input_arrays=input_images --output_arrays=feature_fusion/Conv_7/Sigmoid,feature_fusion/concat_3 --input_shapes=1,512,512,3
+
+
+
+bazel build --cxxopt='--std=c++11' //tensorflow/contrib/lite/java:tensorflowlite --crosstool_top=//external:android/crosstool --host_crosstool_top=@bazel_tools//tools/cpp:toolchain --cpu=arm64-v8a
+
+
+
+
+bazel build -c opt --cxxopt=--std=c++11 \
+--fat_apk_cpu=x86,x86_64,arm64-v8a,armeabi-v7a \
+//tensorflow/contrib/lite/java:tensorflow-lite
