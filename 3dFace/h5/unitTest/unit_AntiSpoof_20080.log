@@ -1,0 +1,18 @@
+2019-08-07 16:26:20,007|unit_AntiSpoof_service|20080|-001|INFO|INIT CHECK|{"flag": "face_detect module init finish"}
+2019-08-07 16:26:21,526|unit_AntiSpoof_service|20080|-001|INFO|INIT CHECK|{"flag": "face_landmark module init finish"}
+2019-08-07 16:26:22,625|unit_AntiSpoof_service|20080|123|INFO|DETECT TIME|{"time": "1.04242801666"}
+2019-08-07 16:26:23,156|unit_AntiSpoof_service|20080|123|INFO|LANDMARK TIME|{"time": "0.530946969986"}
+2019-08-07 16:26:23,162|unit_AntiSpoof_service|20080|123|INFO|FIT TIME|{"time": "0.00544095039368"}
+2019-08-07 16:26:23,177|unit_AntiSpoof_service|20080|123|INFO|DETECT TIME|{"time": "0.0153160095215"}
+2019-08-07 16:26:23,193|unit_AntiSpoof_service|20080|123|INFO|LANDMARK TIME|{"time": "0.0155329704285"}
+2019-08-07 16:26:23,201|unit_AntiSpoof_service|20080|123|INFO|FIT TIME|{"time": "0.0082049369812"}
+2019-08-07 16:26:23,202|unit_AntiSpoof_service|20080|123|INFO|PROCESS RESULT|{"RESULT": "{'code': '000', 'request_id': '123', 'flag': 1, 'angle1': '(7.573946482735247, -3.517380409799391, -0.8506412540922185)', 'angle2': '(0.697412209999554, 22.331275342313376, -8.284717526912988)', 'message': '000'}"}
+2019-08-07 16:26:38,485|unit_AntiSpoof_service|20080|-001|INFO|INIT CHECK|{"flag": "face_detect module init finish"}
+2019-08-07 16:26:40,731|unit_AntiSpoof_service|20080|-001|INFO|INIT CHECK|{"flag": "face_landmark module init finish"}
+2019-08-07 16:26:41,836|unit_AntiSpoof_service|20080|123|INFO|DETECT TIME|{"time": "1.04771995544"}
+2019-08-07 16:26:42,358|unit_AntiSpoof_service|20080|123|INFO|LANDMARK TIME|{"time": "0.521490097046"}
+2019-08-07 16:26:42,366|unit_AntiSpoof_service|20080|123|INFO|FIT TIME|{"time": "0.00819206237793"}
+2019-08-07 16:26:42,381|unit_AntiSpoof_service|20080|123|INFO|DETECT TIME|{"time": "0.0151731967926"}
+2019-08-07 16:26:42,394|unit_AntiSpoof_service|20080|123|INFO|LANDMARK TIME|{"time": "0.0124928951263"}
+2019-08-07 16:26:42,399|unit_AntiSpoof_service|20080|123|INFO|FIT TIME|{"time": "0.00510716438293"}
+2019-08-07 16:26:42,400|unit_AntiSpoof_service|20080|123|INFO|PROCESS RESULT|{"RESULT": "{'code': '000', 'request_id': '123', 'flag': 1, 'angle1': '(7.573936704592603, -3.5173723144480733, -0.8506414679091036)', 'angle2': '(0.6974203884635317, 22.331281453184182, -8.284729502769865)', 'message': '000'}"}
