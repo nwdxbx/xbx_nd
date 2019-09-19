@@ -50,6 +50,7 @@ ulimit -s unlimited #堆栈大小无限制
 ulimit -c unlimited #core文件大小无限制
 
 find . |xargs grep -ri "x86,x86_64,arm64-v8a,armeabi-v7a" #查找
+ls | head -n 100 |xargs -i cp {} ../data/  #复制文件夹前n项文件
 
 ###
 #python的pdb调试
